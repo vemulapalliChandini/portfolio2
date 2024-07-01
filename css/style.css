@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+* {
+   font-family: 'Times New Roman', Times, serif;
+}
+body{
+    overflow-x:hidden;
+}
+.bannerBgImage{
+    height:100vh;
+    background: url("https://www.hdnicewallpapers.com/Walls/Big/Computers/Superb_HD_Laptop_Background_Wallpaper.jpg");
+    background-size:cover;
+    position: relative;
+}
+
+.bannerText{
+    text-align:left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white
+}
+.ing{
+    height:350px;
+    width:380px;
+    border: 1px;
+    border-radius: 1px;
+}
+.huhu{
+    font-size:18px;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+
+.card{
+    cursor:pointer;
+}
+
+.card{
+    background-color: rgb(200, 202, 203);
+    border: 2px solid rgb(18, 19, 17);
+}
+.con{
+    display:flex;
+    justify-content: space-between;
+}
+img {
+    border: 3px solid #555;
+  }
+.ino{
+    height:400px;
+    width:600px;
+}
+.bIcon{
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 3px solid rgb(5, 5, 5)
+}
+
+.card-img-top{
+    height: 50vh;
+}
